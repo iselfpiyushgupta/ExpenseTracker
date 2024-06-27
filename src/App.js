@@ -1,12 +1,8 @@
-import HomePage from "./components/Homepage/Homepage"
-import './App.css';
+import React from "react";
+import Dashboard from "./components/Dashboard/Dashboard";
 
 function App() {
-  return (
-    <div className="app-container">
-      <HomePage />
-    </div>
-  );
+  return <Dashboard />;
 }
 
 export default App;
